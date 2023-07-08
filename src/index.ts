@@ -16,7 +16,24 @@ interface Events {
     [mode: string]: boolean
 }
 
+interface Control {
+    execute: (command: string) => void;
+}
 
+interface Steering extends Control {
+    turn: (direction: string) => void;
+}
+
+
+class SteeringControl implements Steering {
+    execute(command: string) {
+        console.log('Executing: ', command);
+    }
+
+    turn(direction: string) {
+        this.execute(`turn ${direction}`);
+    }
+}
 
 class Car implements AutonomousCar {
     isRunning;
