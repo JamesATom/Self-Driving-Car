@@ -4,4 +4,6 @@ export function getObstacleEvents() {
       'ObstacleLeft': coinFlip, 
       'ObstacleRight': !coinFlip 
     };
-  }
+}
+
+// module.exports = getObstacleEvents;
