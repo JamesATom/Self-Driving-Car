@@ -5,5 +5,8 @@
   "repository": "git@github.com:JamesATom/Self-Driving-Car.git",
   "author": "Abdulaziz-Abduhakhimov <abduhakimovabdulaziz7@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
 }
