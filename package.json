@@ -1,0 +1,9 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:JamesATom/Self-Driving-Car.git",
+  "author": "Abdulaziz-Abduhakhimov <abduhakimovabdulaziz7@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
